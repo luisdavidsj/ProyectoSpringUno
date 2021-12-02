@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class UsoEmpleados {
 
 	public static void main(String[] args) {
-		//Prueba de cambios
+		//Prueba de cambios 2
 		/*//Creacion de objetos de tipo Empleado
 		Empleados Empleado1 = new DirectorEmpleado();
 		
