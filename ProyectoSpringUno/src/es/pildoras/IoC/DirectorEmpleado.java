@@ -41,5 +41,17 @@ public class DirectorEmpleado implements Empleados {
 	public String getInforme() {
 		return "Informe creado por el director: " + informeNuevo.getInforme();
 	}
+	
+	//Metodo init. Ejecutar tareas antes de que el Bean este disponible
+	public void metodoInicial(){
+		System.out.println("Dentro del metodo init, aqui irian las tareas a ejecutar antes de que el Bean este listo");
+	}
+	
+	
+	//Metodo destroy. Ejecutar tareas despues de que el Bean haya sido utilizado
+	public void metodoFinal(){
+		System.out.println("Dentro del metodo destroy, aqui irian las tareas a ejecutar despues de ejecutar el Bean");
+	}
+	
 
 }
