@@ -15,6 +15,7 @@ public class UsoDemoSingletonPrototype {
 		SecretarioEmpleado Manolo = contexto.getBean("miSecretarioEmpleado", SecretarioEmpleado.class);
 		SecretarioEmpleado Juan = contexto.getBean("miSecretarioEmpleado", SecretarioEmpleado.class);
 		SecretarioEmpleado Ana = contexto.getBean("miSecretarioEmpleado", SecretarioEmpleado.class);
+		contexto.close();
 		
 		System.out.println(Maria);
 		
